@@ -19,6 +19,8 @@ repositories {
     mavenCentral()
 }
 
+val versionKotest = "5.5.5"
+
 dependencies {
     // Use the Kotlin JUnit 5 integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
@@ -28,6 +30,10 @@ dependencies {
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:31.1-jre")
+
+    testImplementation("io.kotest:kotest-runner-junit5:$versionKotest")
+    testImplementation("io.kotest:kotest-assertions-core:$versionKotest")
+    testImplementation("io.kotest:kotest-property:$versionKotest")
 }
 
 application {
