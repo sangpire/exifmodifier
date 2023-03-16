@@ -40,7 +40,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass.set("kr.sangpire.exif.AppKt")
+    mainClass.set("github.sangpire.exifmodifier.AppKt")
 }
 
 tasks.named<Test>("test") {

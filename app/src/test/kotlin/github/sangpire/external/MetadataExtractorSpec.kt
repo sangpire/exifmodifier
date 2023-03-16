@@ -1,4 +1,4 @@
-package kr.sangpire.libs
+package github.sangpire.external
 
 import com.drew.imaging.ImageMetadataReader
 import com.drew.metadata.exif.ExifIFD0Directory
