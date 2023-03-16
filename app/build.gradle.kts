@@ -34,6 +34,8 @@ dependencies {
     testImplementation("io.kotest:kotest-runner-junit5:$versionKotest")
     testImplementation("io.kotest:kotest-assertions-core:$versionKotest")
     testImplementation("io.kotest:kotest-property:$versionKotest")
+
+    implementation("com.drewnoakes:metadata-extractor:2.18.0")
 }
 
 application {
